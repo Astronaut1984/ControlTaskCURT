@@ -39,7 +39,7 @@ class Vechicle:
         self.theta = max(min(self.theta, np.pi), -np.pi)
 
 class PIDController:
-    def __init__(self, Kp, Ki, Kd, setpoint):
+    def __init__(self, Kp, Ki, Kd):
         self.Kp = Kp
         self.Ki = Ki 
         self.Kd = Kd
